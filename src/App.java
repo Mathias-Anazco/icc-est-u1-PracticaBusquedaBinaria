@@ -45,10 +45,10 @@ public class App {
         }
         int metodo = vista.seleccionarMetodoOrdenamiento();
         switch (metodo) {
-            case 1 -> metodosOrdenamiento.ordenamientoEdadBurbuja(personas);
-            case 2 -> metodosOrdenamiento.ordenamientoEdadSeleccionDes(personas);
-            case 3 -> metodosOrdenamiento.ordenamientoEdadInsercion(personas);
-            case 4 -> metodosOrdenamiento.ordenamientoNombreInsercion(personas);
+            case 1 -> metodosOrdenamiento.ordenamientoNombreBurbuja(personas);
+            case 2 -> metodosOrdenamiento.ordenamientoNombreSeleccionDes(personas);
+            case 3 -> metodosOrdenamiento.ordenamientoNombreInsercion(personas);
+            case 4 -> metodosOrdenamiento.ordenamientoEdadInsercion(personas);
             default -> System.out.println("Método de ordenamiento inválido.");
         }
         vista.mostrarPersonas(personas);

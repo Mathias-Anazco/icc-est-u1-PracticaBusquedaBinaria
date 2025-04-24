@@ -31,10 +31,10 @@ public class ShowConsole{
         System.out.println("\n╔════════════════════════════════╗");
         System.out.println("║   MÉTODOS DE ORDENAMIENTO      ║");
         System.out.println("╠════════════════════════════════╣");
-        System.out.println("║ 1. Burbuja por edad            ║");
-        System.out.println("║ 2. Selección por edad          ║");
-        System.out.println("║ 3. Inserción por edad          ║");
-        System.out.println("║ 4. Inserción por nombre (A-Z)  ║");
+        System.out.println("║ 1. Burbuja por nombre (A-Z)    ║");
+        System.out.println("║ 2. Selección por nombre (A-Z)  ║");
+        System.out.println("║ 3. Inserción por nombre (A-Z)  ║");
+        System.out.println("║ 4. Inserción por edad          ║");
         System.out.println("╚════════════════════════════════╝");
         System.out.print("Seleccione una opción: ");
         return sc.nextInt();
